@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(241, 227, 237);
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+}
+
+header nav ul{
+    color: white;
+    display:flex;
+    gap: 3em;
+    padding: 0.5em;
+}
+
+main{
+    padding: 0.5em;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul li:hover{
+    color: blue;
+}
+ 
+.acerca-imagen{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;;
+
+    img{
+        margin: 50px;
+        width: 300px;
+        height: 300px;
+        border-radius: 25% 10%;
+    }
+}
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contacto{
+    color: rgb(216, 44, 202);
+}
+
+.footer button{
+    float: left;
+    margin-left: 0;
+    margin-bottom: 0;
+}
